@@ -940,7 +940,6 @@ public final class ShufflerElGamalSession extends ProtocolElGamal {
             } catch (final InterruptedException ie) {
                 throw new ProtocolError("Unable to join threads!", ie);
             }
-            nextOutputThread = null;
         }
 
         // If the proof was rejected, then we need to drop our
